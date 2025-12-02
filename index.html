@@ -1,0 +1,456 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menu encabezado -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Stanley</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobre-mi" onclick="seleccionar()">SOBRE MÍ</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                   <!-- <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>  -->       
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarmenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+    <!-- Seleccion de inicio -->
+    <selection id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/fotoportaN.png">
+            </div>
+            <h1>Stanley Rodriguez</h1>
+            <h2>Ingeniero de software - Web Developer</h2>
+            <div class="redes">
+
+                <div class="redes">
+                    <a href="https://www.facebook.com/stanley.rodriguez.201242" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://x.com/Stannl3en201" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/stanley_rodriguez1/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://github.com/stannLee19" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/oscar-rodriguez-355362269/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </selection>
+    <!-- Seccion sobre mi -->
+    <section id="sobre-mi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Stanley Rodriguez</span>, soy ingeniero de software recién graduado con una gran pasión
+                por el desarrollo y el diseño. Me encanta aprender y compartir mis conocimientos, ya que creo en el
+                crecimiento continuo y en la importancia del trabajo en equipo. Disfruto colaborar con personas que
+                comparten mis intereses, creando soluciones innovadoras y aportando valor en el mundo de la
+                programación.
+
+                Además de la programación, me interesa el diseño de interfaces y la creación de experiencias digitales
+                atractivas y funcionales. Mi objetivo es desarrollar proyectos que combinen creatividad, eficiencia e
+                impacto positivo. Siempre estoy en búsqueda de nuevos desafíos que me permitan crecer y evolucionar en
+                esta industria en constante cambio.</p>
+            <div class="fila">
+                <!-- Datos Personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong> 29-04-2000
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong> +503 72299808
+                        </li>
+                        <li>
+                            <strong>Email</strong> stanleyrodri2016@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong> www.stanley.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong> Chalatenango, El Salvador
+                        </li>
+                        <li>
+                            <strong>Cargo</strong> Freelance
+                        </li>
+                    </ul>
+                </div>
+                <!-- Intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>Soccer</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Tecnologia</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>Gym</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-tree"></i>
+                            <span>Naturaleza</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                 <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+                <a href="https://drive.google.com/drive/folders/1Ji7pS5LiNOMSc2GplOsazA-O79tm_EIb" target="_blank">Ver CV
+
+                </a>
+
+            </button>
+        </div>
+    </section>
+
+    <!-- Seccion skills -->
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion"></div>
+        <h2>Programación & Aptitudes </h2>
+        <div class="fila">
+
+
+            <!-- lenguajes -->
+            <div class="col">
+
+                <h3>Lenguajes</h3>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="barra-skill">
+                        <div class="progreso javascript">
+                            <span>40%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso htmlcss">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>C#</span>
+                    <div class="barra-skill">
+                        <div class="progreso csharp">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="barra-skill">
+                        <div class="progreso python">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>SQL</span>
+                    <div class="barra-skill">
+                        <div class="progreso sql">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Cualidades -->
+            <div class="col">
+
+                <h3>Habilidades</h3>
+                <div class="skill">
+                    <span>Comunicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso comunicacion">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en equipo </span>
+                    <div class="barra-skill">
+                        <div class="progreso trabajoenequipo">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso creatividad">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Liderazgo</span>
+                    <div class="barra-skill">
+                        <div class="progreso liderazgo">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Resolucion de problemas</span>
+                    <div class="barra-skill">
+                        <div class="progreso resoluciondeproblemas ">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Seccion curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniero En Sistemas y Computación</h4>
+                        <span class="casa">Universidad Dr. Andrés Bello</span>
+                        <span class="fecha">2019-2024</span>
+                        <p>Soy un apasionado de la tecnología que disfruta aprender y compartir conocimientos. Durante
+                            un año me especialicé como Web Developer, profundizando en diversos lenguajes y herramientas
+                            para el desarrollo web. Me encanta afrontar nuevos desafíos, mantenerme en constante
+                            evolución y contribuir con soluciones innovadoras que hagan la diferencia. Mi objetivo es
+                            seguir creciendo profesionalmente mientras transmito mi experiencia y aprendo de los demás.
+                            🚀.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Certificaciones</h4>
+                        <span class="casa">Fundacion Carlos Slim</span>
+                        <span class="fecha">23-11-2021 - 24-11-2021</span>
+                        <p>Certificacion de Fundamentos de Electronica Digital.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Educación adicional</h4>
+                        <span class="casa">Instituto Nacional De La Reina</span>
+                        <span class="fecha">2015-2018</span>
+                        <p>Bachiller Técnico En contaduria.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Asistente en área de Tersoreria</h4>
+                        <span class="casa">Alcaldia Municipal de Tejutla</span>
+                        <span class="fecha">01-02-2023 - 30-09-2023</span>
+                        <p>
+                            Durante los últimos 8 meses, trabajé en el área de tesorería, encargándome de la recepción
+                            de impuestos y la organización de los equipos informáticos. Además, apoyé a mi supervisor en
+                            la digitalización y gestión de facturas, contribuyendo a optimizar los procesos
+                            administrativos. Esta experiencia me permitió desarrollar habilidades en administración,
+                            organización y soporte tecnológico.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- Seccion portafolio -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/image ht.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/image css.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/image js.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/image c.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/image p.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/image.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Seccion Contacto 
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                 formulario 
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Número de telefono">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                        
+                    </button>
+
+
+                </div>
+
+                 Mapa 
+                <div class="col">
+                    <img src="img/mapach.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Chalatenango, El Salvador
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamar al 72299808
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: stanleyrodri2016@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+
+    <!-- footer -->
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="script.js">
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
